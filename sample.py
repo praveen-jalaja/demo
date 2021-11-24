@@ -13,6 +13,9 @@ def ciao():
 def say():
 	if sys.argv[1]=="Hello":
 		echo()
+	elif sys.argv[1]=="hey":
+		hi()
+	
 	
 
 
