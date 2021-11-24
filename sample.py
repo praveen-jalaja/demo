@@ -3,6 +3,11 @@ import sys
 def echo():
 	print("Hello")
 
+
+def default():
+	print("vannakam")
+
+
 def hi():
 	print("Hey")
 
@@ -13,6 +18,8 @@ def ciao():
 def say():
 	if sys.argv[1]=="Hello":
 		echo()
+	else:
+		default()
 	
 
 
